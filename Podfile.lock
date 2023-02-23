@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AnyCodable-FlightSchool (0.2.3)
+  - Kingfisher (6.3.1)
+  - netfox (1.21.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SkeletonView (1.29.2)
+  - Swinject (2.8.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - AnyCodable-FlightSchool (~> 0.2.2)
+  - Kingfisher (~> 6.3.1)
+  - netfox
+  - NVActivityIndicatorView (~> 4.8.0)
+  - RxCocoa
+  - SkeletonView (= 1.29.2)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyCodable-FlightSchool
+    - Kingfisher
+    - netfox
+    - NVActivityIndicatorView
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SkeletonView
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  Swinject: db795b8d6d78559b25fbebb0170d2635be1176e2
+
+PODFILE CHECKSUM: 234a06976b00a66fe1f97b4ef328cf4e452e244c
+
+COCOAPODS: 1.11.3

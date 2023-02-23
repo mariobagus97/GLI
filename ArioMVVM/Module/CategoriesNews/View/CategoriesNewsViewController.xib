@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoriesNewsViewController" customModule="ArioMVVM" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GXB-wH-CHV">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="79m-jZ-xgO">
+                            <rect key="frame" x="131" y="199.33333333333334" width="131.33333333333337" height="360.33333333333314"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjJ-et-YMI">
+                                    <rect key="frame" x="0.0" y="0.0" width="131.33333333333334" height="34.333333333333336"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Business"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="jQc-Mn-MDk"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SB-bY-hr8">
+                                    <rect key="frame" x="0.0" y="54.333333333333371" width="131.33333333333334" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Entertainment"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="GvH-mm-35G"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hy3-If-gWG">
+                                    <rect key="frame" x="0.0" y="108.66666666666669" width="131.33333333333334" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="General"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="D0g-G8-ouj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEV-zy-fQz">
+                                    <rect key="frame" x="0.0" y="163" width="131.33333333333334" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Health"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="EyK-VE-qDy"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbp-9i-OL9">
+                                    <rect key="frame" x="0.0" y="217.33333333333337" width="131.33333333333334" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Science"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="SDe-bx-FJd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAE-o6-CGR">
+                                    <rect key="frame" x="0.0" y="271.66666666666669" width="131.33333333333334" height="34.333333333333314"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Sports"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="wnA-nq-1fg"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhw-y8-xGg">
+                                    <rect key="frame" x="0.0" y="326.00000000000006" width="131.33333333333334" height="34.333333333333314"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Technology"/>
+                                    <connections>
+                                        <action selector="didBtnTapped:" destination="-1" eventType="touchUpInside" id="X4K-J3-2uf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="79m-jZ-xgO" firstAttribute="centerY" secondItem="GXB-wH-CHV" secondAttribute="centerY" id="SGb-XE-a8h"/>
+                        <constraint firstItem="79m-jZ-xgO" firstAttribute="centerX" secondItem="GXB-wH-CHV" secondAttribute="centerX" id="avt-q5-xPE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GXB-wH-CHV" secondAttribute="trailing" id="YTx-0e-NDe"/>
+                <constraint firstItem="GXB-wH-CHV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ha8-Iu-Qsi"/>
+                <constraint firstItem="GXB-wH-CHV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="koU-uv-nwD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="GXB-wH-CHV" secondAttribute="bottom" id="xrQ-0o-7iQ"/>
+            </constraints>
+            <point key="canvasLocation" x="127" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
